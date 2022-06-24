@@ -1,0 +1,85 @@
+
+header {
+    text-align: center;
+    background-color: #201e1e;
+    padding: 25pt;
+    margin-bottom: 2%;
+  }
+   
+  header a {
+    margin: 30px;
+    color: black;
+    text-decoration: none;
+    background-color: rgb(84, 196, 140);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header a:hover{
+    background-color: rgba(124, 248, 207, 0.966); /* Mudando a cor de fundo quando passo o mouse em cima do icone  */
+}
+
+h1{
+    font-family: arial;
+    color:#e5e8e8
+}
+
+p{
+    font-family: arial;
+    color: #FFF;
+}
+
+img{
+    width: 500px;
+}
+
+
+
+
+
+footer {
+    width: 100%;
+    background-color: #6f757e;
+    padding: 16px;
+    color: #e5e8e8;
+    bottom: 0;
+    text-align: center;
+    font-weight: 400;
+    margin-top: 2%;
+    margin-bottom: 0;
+    }
+
+main{
+    margin-top: 3%;
+    width: 90vh;
+    margin: auto;
+    background-color:  rgb(29, 28, 28);
+    padding: 20px;
+    border-radius: 10px;
+    color:beige
+
+}
+
+body{
+    background-image: linear-gradient(to left, rgb(66, 62, 62), rgba(19, 2, 2, 0.932));
+}
+
+
+
+table, tr, td, th{
+    border:#000 groove 1px;
+    width:450px;
+    padding:3px;
+    font-size:20px;
+    border-collapse:collapse;
+}
+td{
+    width:200px;
+    height:30px;
+}
+th{
+    background-color:rgb(2, 146, 45);
+    color:#FFF;
+}
+
+
